@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; margin: 24px; background: #eef5f9; color: #243447; }
+.external-example { padding: 16px; border: 2px solid #087f5b; background: #ffffff; }
+.site-header { padding: 24px; background: #183b56; color: #ffffff; }
+.container { max-width: 900px; margin: 24px auto; }

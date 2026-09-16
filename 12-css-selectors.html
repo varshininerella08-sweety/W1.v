@@ -1,7 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CSS Selectors</title><link rel="stylesheet" href="selectors.css"></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CSS Selectors and Box Model</title><style>
+*{box-sizing:border-box}body{font-family:Georgia,serif;background:#f4f7fb;color:#243447;margin:24px}h1{color:#183b56}p{line-height:1.6}.notice{background:#fff4cc}.card{width:300px;height:160px;margin:20px;padding:24px;border:4px solid #d35400;background:#fff}.card:hover{background:#e8f6f3}#special{font-weight:bold;color:#d35400}a[href^="https"]{color:#087f5b}
+</style></head>
 <body>
-  <main class="container"><h1 id="main-title">CSS Selectors and Properties</h1><p>Element, class, ID, descendant, and attribute selectors can target content precisely.</p><section class="card"><h2>Design notes</h2><p class="accent">This paragraph demonstrates colors, fonts, margins, padding, and borders.</p><a href="https://example.com">Attribute-selected link</a></section></main>
+<h1>CSS Selectors, Colors and Box Model</h1>
+<p class="notice">This uses an element selector, class selector, ID selector, attribute selector, colors, fonts, and background.</p>
+<p id="special">This text uses an ID selector.</p>
+<div class="card">Content area<br>Padding: 24px<br>Border: 4px<br>Margin: 20px</div>
+<a href="https://developer.mozilla.org">External link selector</a>
 </body>
 </html>
