@@ -1,0 +1,6 @@
+<form>
+first name:<br>
+<input type="text" name="firstname"><br>
+last name:<br>
+<input type="text" name="lastname"><br>
+</form>
